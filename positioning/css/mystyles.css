@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,800,800i');
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.banner{
+
+    background-color: #1b6d85;
+
+}
+
+.section-grid{
+
+    background-color: #2e6da4;
+    clear: both;
+}
+
+
+.section-left{
+
+    background-color:blue;
+    width: 67%;
+    float: left;
+
+
+}
+
+
+.section-right{
+
+    background-color: #4cae4c;
+    margin-left: 67%;
+}
+
+footer{
+
+    background-color: #007eff;
+    clear: both;
+}
+
+
+.photo-grid{
+
+    float: left;
+    border:5px solid red;
+    width:33%;
+    margin-right: 3px;
+    margin-bottom: 3px;
+
+}
+
+
+.center{
+
+    margin: 0 auto;
+
+}
+
+.side-links{
+
+
+    border:5px solid red;
+    width:33%;
+
+   margin-bottom: 3px;
+
+}
+
+.header-links{
+
+    float:left;
+
+}
+.links{
+
+    background-color: white;
+}
+
+.links::after {
+
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.left-footer{
+
+    width:50%;
+    display: inline;
+}
+
+.right-footer{
+
+    width:50%;
+    display: inline;
+}
